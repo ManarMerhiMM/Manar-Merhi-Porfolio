@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-function Project(props){
+function NotFound(props){
     return <></>
 }
 
 
-export default Project;
+export default NotFound;

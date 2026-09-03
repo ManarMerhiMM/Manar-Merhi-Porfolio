@@ -1,3 +1,468 @@
 {
-    
+    "basicInfo": {
+        "name": "Manar Merhi",
+        "title": "Computer & Communications Engineer",
+        "tagline": "Full-Stack Developer",
+        "location": {
+            "city": "Saida",
+            "country": "Lebanon"
+        },
+        "resume": "https://drive.google.com/uc?export=download&id=1kiOKnWVgMqqCQAfHzYHxBhUiMVrHnCIa",
+        "socials": {
+            "email": "manarmerhi80@gmail.com",
+            "github": "https://github.com/ManarMerhiMM",
+            "linkedin": "https://www.linkedin.com/in/manar-merhi-65b859325/",
+            "instagram": "https://www.instagram.com/manar._.merhi/",
+            "phone": {
+                "flag": "🇱🇧",
+                "code": "+961",
+                "number": "71850368"
+            }
+        },
+        "bio": "Computer & Communications Engineer passionate about full-stack development. Open to software engineering opportunities."
+    },
+    "education": {
+        "schools": [
+            {
+                "id": "rafik-hariri-university",
+                "school": "Rafik Hariri University (RHU)",
+                "degree": "BE in Computer and Communications Engineering",
+                "startYear": "2022",
+                "endYear": "2026",
+                "grade": 93.09,
+                "over": 100,
+                "honors": [
+                    "President's Honor List Consistently"
+                ]
+            },
+            {
+                "id": "beit-jala-secondary-school",
+                "school": "Beit Jala Secondary School",
+                "degree": "Baccalaureate (LS)",
+                "startYear": "2016",
+                "endYear": "2022",
+                "grade": 18.556,
+                "over": 20,
+                "honors": [
+                    "Ranked 17th Across Lebanon"
+                ]
+            }
+        ],
+        "tests": [
+            {
+                "id": "toefl-ibt",
+                "name": "TOEFL iBT",
+                "taken": "Jun 2022",
+                "score": 104,
+                "over": 120
+            },
+            {
+                "id": "sat",
+                "name": "SAT",
+                "taken": "Mar 2022",
+                "score": 1390,
+                "over": 1600
+            }
+        ],
+        "languages": [
+            {
+                "id": "arabic",
+                "name": "Arabic",
+                "proficiency": "native"
+            },
+            {
+                "id": "english",
+                "name": "English",
+                "proficiency": "Bilingual"
+            }
+        ]
+    },
+    "certifications": [
+        {
+            "id": "modern-react-bootcamp",
+            "name": "The Modern React Bootcamp",
+            "company": "Udemy",
+            "date": "Sep 2026"
+        },
+        {
+            "id": "JS-complete-guide",
+            "name": "JS - The Complete Guide",
+            "company": "Udemy",
+            "date": "Aug 2026"
+        },
+        {
+            "id": "html-css-bootcamp-2026",
+            "name": "The HTML & CSS Bootcamp 2026 Edition",
+            "company": "Udemy",
+            "date": "May 2026"
+        },
+        {
+            "id": "enterprise-networking-security-automation",
+            "name": "Enterprise Networking, Security, and Automation",
+            "company": "Cisco Networking Academy",
+            "date": "May 2025"
+        },
+        {
+            "id": "switching-routing-wireless-essentials",
+            "name": "Switching, Routing, and Wireless Essentials",
+            "company": "Cisco Networking Academy",
+            "date": "Mar 2025"
+        },
+        {
+            "id": "introduction-to-networks",
+            "name": "Introduction to Networks",
+            "company": "Cisco Networking Academy",
+            "date": "Dec 2023"
+        }
+    ],
+    "projects": [
+        {
+            "id": "buckshot-roulette-web",
+            "title": "Buckshot Roulette 2.0",
+            "description": "A web-based clone of Buckshot Roulette featuring match history, stats tracking, and a PvE mode against an AI opponent.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "UI/UX",
+                "Game Programming"
+            ],
+            "url": "https://github.com/ManarMerhiMM/Buckshot-Roulette-V2",
+            "startDate": "Aug 2026",
+            "endDate": "Present",
+            "priority": true
+        },
+        {
+            "id": "customer-support-intake-pipeline",
+            "title": "Customer Support Intake Pipeline",
+            "description": "A customer support intake pipeline designed to organize, process, and route incoming customer support requests to the appropriate team.",
+            "skills": [
+                "Python",
+                "Prompt Engineering",
+                "Automation"
+            ],
+            "url": "https://github.com/ManarMerhiMM/AI-Powered-Customer-Support-Intake-Pipeline",
+            "startDate": "Apr 2026",
+            "endDate": "May 2026",
+            "priority": true
+        },
+        {
+            "id": "vision-wearable-ecosystem",
+            "title": "VISION",
+            "description": "A final-year project focused on developing a wearable ecosystem designed to improve accessibility and independence for visually impaired users.",
+            "skills": [
+                "React",
+                "React Native",
+                "Laravel",
+                "MySQL",
+                "BLE",
+                "ESP32",
+                "Raspberry Pi",
+                "Computer Vision",
+                "Human-Computer Interaction"
+            ],
+            "url": "https://docs.google.com/document/d/1gkgxFmTq-jEQUXuEtC0P8UEaJbL6Bj84/export?format=pdf",
+            "startDate": "Sep 2025",
+            "endDate": "May 2026",
+            "priority": true
+        },
+        {
+            "id": "extending-mips-isa",
+            "title": "Extending the MIPS ISA",
+            "description": "A computer architecture project focused on extending the MIPS instruction set architecture and exploring the implementation of an additional instruction.",
+            "skills": [
+                "MIPS",
+                "RISC",
+                "Computer Architecture"
+            ],
+            "url": "https://docs.google.com/document/d/1McenKgdojzyp6FCaNDaFNyixa_WLzLfI/export?format=pdf",
+            "startDate": "Apr 2026",
+            "endDate": "Apr 2026",
+            "priority": false
+        },
+        {
+            "id": "rainfall-prediction-ml",
+            "title": "Rainfall Prediction using Machine Learning",
+            "description": "A machine learning project focused on predicting rainfall from historical weather data using machine learning techniques.",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Data Analysis"
+            ],
+            "url": "https://colab.research.google.com/drive/10b06v9RsaRgpmy7wxIzg3U3uRdGsrlJc?usp=drive_link",
+            "startDate": "Mar 2026",
+            "endDate": "Apr 2026",
+            "priority": false
+        },
+        {
+            "id": "fsm-tinkering",
+            "title": "FSM Tinkering Web Application",
+            "description": "A frontend-only web application for experimenting with finite state machines.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "FSMs",
+                "JSON"
+            ],
+            "url": "https://github.com/ManarMerhiMM/FSM-Tinkerer",
+            "startDate": "Nov 2025",
+            "endDate": "Nov 2025",
+            "priority": true
+        },
+        {
+            "id": "absa-restaurant-reviews",
+            "title": "ABSA of Restaurant Reviews",
+            "description": "An aspect-based sentiment analysis project using Python to analyze customer sentiment toward specific aspects of restaurant reviews.",
+            "skills": [
+                "Python",
+                "NLP",
+                "Machine Learning",
+                "Data Analysis"
+            ],
+            "url": "https://colab.research.google.com/drive/1l9bINRRuWz-atz7jOqXnjhGIb823jRot?usp=drive_link",
+            "startDate": "Oct 2025",
+            "endDate": "Nov 2025",
+            "priority": false
+        },
+        {
+            "id": "speech-recognition-without-ai",
+            "title": "Speech Recognition without AI",
+            "description": "A speech recognition project implemented without AI using signal processing and cross-correlation techniques in Python.",
+            "skills": [
+                "Python",
+                "Cross-Correlation",
+                "Signal Processing"
+            ],
+            "url": "https://github.com/ManarMerhiMM/Speech-Recognition-without-AI",
+            "startDate": "Oct 2025",
+            "endDate": "Nov 2025",
+            "priority": false
+        },
+        {
+            "id": "m-t-tutoring-platform",
+            "title": "M & T Tutoring Online Learning Platform",
+            "description": "A frontend-only online learning platform designed for tutoring and educational content, developed without frontend frameworks.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "JSON"
+            ],
+            "url": "https://github.com/ManarMerhiMM/M-T-Tutoring-Website",
+            "startDate": "Jan 2025",
+            "endDate": "Apr 2025",
+            "priority": true
+        },
+        {
+            "id": "automated-greenhouse",
+            "title": "Automated Greenhouse System",
+            "description": "An automated greenhouse prototype designed and simulated in Tinkercad, using sensors and automated controls to manage greenhouse conditions.",
+            "skills": [
+                "Tinkercad",
+                "Arduino"
+            ],
+            "url": "https://drive.google.com/uc?export=download&id=1tiCgd6erjFtcfpPZY_jNvg_bK1eRv30f",
+            "startDate": "Sep 2024",
+            "endDate": "Dec 2024",
+            "priority": false
+        },
+        {
+            "id": "network-infrastructure-college",
+            "title": "College Block Network Infrastructure Design",
+            "description": "A network infrastructure design for a college block created and simulated using Cisco Packet Tracer.",
+            "skills": [
+                "Cisco Packet Tracer",
+                "Networking"
+            ],
+            "url": "https://drive.google.com/file/d/14KkgUS9NcSlGVgFsc39xww-arfW-vfR7/view?usp=drive_link",
+            "startDate": "Nov 2024",
+            "endDate": "Nov 2024",
+            "priority": false
+        },
+        {
+            "id": "buckshot-roulette-terminal",
+            "title": "Buckshot Roulette 1.0",
+            "description": "A terminal-based implementation of Buckshot Roulette developed as a personal programming project.",
+            "skills": [
+                "Python"
+            ],
+            "url": "https://github.com/ManarMerhiMM/Buckshot-Roulette",
+            "startDate": "Sep 2024",
+            "endDate": "Sep 2024",
+            "priority": true
+        },
+        {
+            "id": "restaurant-dbms",
+            "title": "Restaurant Database Management System",
+            "description": "A C# desktop application for managing restaurant-related data through a database management system.",
+            "skills": [
+                "C#",
+                "DBMS",
+                "SQL",
+                "Windows Forms",
+                "UI/UX"
+            ],
+            "url": "https://drive.google.com/uc?export=download&id=19V4Y3TVSnLNl4gu2lO2KzWIIzH3orzOI",
+            "startDate": "Jan 2024",
+            "endDate": "Apr 2024",
+            "priority": false
+        },
+        {
+            "id": "sudoku-solver",
+            "title": "Sudoku Solver",
+            "description": "A program that solves Sudoku puzzles algorithmically using problem-solving and backtracking techniques.",
+            "skills": [
+                "AI",
+                "Python",
+                "UI/UX"
+            ],
+            "url": "https://drive.google.com/uc?export=download&id=172Pa_BnnE6jGiBLm0g06I8rekGMrFNGU",
+            "startDate": "Jan 2024",
+            "endDate": "Apr 2024",
+            "priority": false
+        },
+        {
+            "id": "inductive-generator",
+            "title": "Inductive Generator (Faraday's Law Recreation)",
+            "description": "An electromagnetics lab project recreating Faraday's Electromagnetic Induction Experiment using a hand-cranked dynamo, exploring how mechanical motion is converted to electrical current via a changing magnetic flux.",
+            "skills": [
+                "Electromagnetics",
+                "Circuit Design",
+                "Physics"
+            ],
+            "url": "https://docs.google.com/document/d/1dldjMoj3wqbJceKaa4zpw4vI9NHS2JOC/export?format=pdf",
+            "startDate": "Jan 2024",
+            "endDate": "Apr 2024",
+            "priority": false
+        },
+        {
+            "id": "parking-lot-simulation",
+            "title": "Password-Gated Parking Lot System",
+            "description": "An FPGA-based digital logic system simulating a parking lot with password-protected gate access and real-time occupancy tracking, implemented in Verilog and synthesized in Quartus Prime.",
+            "skills": [
+                "Verilog HDL",
+                "FPGA",
+                "Digital Logic Design",
+                "Quartus Prime",
+                "Circuit Design"
+            ],
+            "url": "https://drive.google.com/uc?export=download&id=1v0Nx1SUKOubukIYWgYdXcwUBZiWya9Jv",
+            "startDate": "Sep 2023",
+            "endDate": "Dec 2023",
+            "priority": false
+        }
+    ],
+    "experiences": [
+        {
+            "id": "private-tutor",
+            "company": "Self",
+            "role": "Private Tutor",
+            "type": "Freelance",
+            "location": "Hybrid",
+            "startDate": "Nov 2025",
+            "endDate": "Present",
+            "description": "I offer private tutoring for any students looking to ace their exams with ease. Just send me the required material ahead of time so we can schedule an online/offline meeting. My hourly rate is negotiable based on the case. Contact me if interested.",
+            "skills": [
+                "Communication",
+                "Tutoring",
+                "Research",
+                "Presentation",
+                "Time Management"
+            ]
+        },
+        {
+            "id": "octasolutions-full-stack-developer",
+            "company": "OctaSolutions",
+            "role": "Full-Stack Web Developer",
+            "type": "Internship",
+            "location": "Remote",
+            "startDate": "Jun 2025",
+            "endDate": "Aug 2025",
+            "description": "Worked on multiple medium-level projects during the initial phase before developing an in-depth database management system web application. Focused primarily on backend development, database management, REST APIs, and web security while working with PHP, Laravel, MySQL, React, and JS.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "React",
+                "DBMS",
+                "MySQL",
+                "PHP",
+                "Laravel",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "devision-full-stack-developer",
+            "company": "DeVision",
+            "role": "Full Stack Web Developer",
+            "type": "Internship",
+            "location": "Remote",
+            "startDate": "May 2025",
+            "endDate": "Jun 2025",
+            "description": "I worked on various medium-level projects involving some popular technologies, my goal was to implement those tasks securely and professionally, I was more focused on the backend aspect of things.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "React",
+                "DBMS",
+                "MySQL",
+                "PHP",
+                "Laravel",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "rhu-teaching-assistant-2024",
+            "company": "RHU",
+            "type": "Apprenticeship",
+            "role": "Teaching Assistant",
+            "location": "Hybrid",
+            "startDate": "Sep 2024",
+            "endDate": "Dec 2024",
+            "description": "Served as a Teaching Assistant for engineering and computer science students, providing academic support across university-level courses including Calculus III, Linear Algebra, Probability and Statistics, Ordinary Differential Equations, and Introduction to Programming.",
+            "skills": [
+                "Classroom Management",
+                "University Teaching",
+                "Tutoring"
+            ]
+        },
+        {
+            "id": "meritech-services-full-stack-developer",
+            "company": "Meritech Services",
+            "type": "Freelance",
+            "role": "Full Stack Web Developer",
+            "location": "Remote",
+            "startDate": "Jun 2024",
+            "endDate": "Aug 2024",
+            "description": "Took on a freelance full-stack web development project as a personal challenge despite having no prior web development experience. Learned the required technologies from scratch and immediately applied them to develop a database management system web application for the client’s business. Worked independently under supervision, adhered to the defined scope, implemented the planned features, and achieved the project goals with minimal errors. The experience strengthened my ability to learn quickly, adapt to unfamiliar technologies, solve problems independently, and work effectively under pressure, while other contributors handled the more advanced cybersecurity and statistical components.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "React",
+                "DBMS",
+                "MySQL",
+                "PHP",
+                "Laravel",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "rhu-teaching-assistant-2022",
+            "company": "RHU",
+            "type": "Apprenticeship",
+            "role": "Teaching Assistant",
+            "location": "Hybrid",
+            "startDate": "Sep 2022",
+            "endDate": "Apr 2023",
+            "description": "Worked as a live teaching assistant for beginner and advanced programming courses in C++, providing real-time guidance and support to students throughout their coursework. I also tutored engineering and computer science students in a variety of subjects, including Calculus III, Introduction to Programming, and Advanced Programming and Data Structures, helping students strengthen their understanding of core concepts, develop problem-solving skills, and apply theoretical knowledge to practical programming problems.",
+            "skills": [
+                "Classroom Management",
+                "University Teaching",
+                "Tutoring"
+            ]
+        }
+    ]
 }
