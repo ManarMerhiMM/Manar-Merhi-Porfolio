@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background-color: #f0e2b8;
+}
+
+html.dark {
+    background-color: #1e1b2e;
+}
+
 body {
     font-family: "IBM Plex Sans", "Twemoji Country Flags", sans-serif;
 }

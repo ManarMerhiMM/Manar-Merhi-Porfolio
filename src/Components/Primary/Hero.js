@@ -1,11 +1,16 @@
+import { motion } from "framer-motion";
 import data from "../../Data/data.json";
 import pfp from "../../Assets/Manar.jpeg";
 
 function Hero() {
     return (
-        <section
+        <motion.section
             id="Overview"
             className="min-h-screen md:min-h-[calc(100vh-5rem)] flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-16 md:py-0"
+            initial={{ opacity: 0, y: 32 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.15 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
         >
             <div className="relative group shrink-0">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#b5650a] via-[#e8951f] to-[#f5a623] blur-lg opacity-60 dark:opacity-40 transition-opacity duration-300 group-hover:opacity-80" />
@@ -41,7 +46,7 @@ function Hero() {
                 </p>
 
             </div>
-        </section>
+        </motion.section>
     );
 }
 
