@@ -32,32 +32,6 @@ function ProminentProjectCard({ project }) {
                     </h2>
                 </div>
 
-                <a
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
-                        inline-flex w-fit shrink-0 items-center gap-2
-                        rounded-lg
-                        bg-[#b5650a] dark:bg-[#f5a623]
-                        px-4 py-2.5
-                        text-sm font-semibold
-                        text-white dark:text-[#1e1b2e]
-                        transition-all duration-200
-                        hover:-translate-y-0.5
-                        hover:shadow-md
-                        focus:outline-none
-                        focus-visible:ring-2
-                        focus-visible:ring-[#e8951f]
-                        focus-visible:ring-offset-2
-                        focus-visible:ring-offset-[#fdedb0]
-                        dark:focus-visible:ring-offset-[#221f33]
-                    "
-                >
-                    Learn More
-                    <span aria-hidden="true">↗</span>
-                </a>
-
             </div>
 
             <div className="mt-8 border-t border-[#c9b989] dark:border-[#332f47] pt-6">
@@ -68,10 +42,6 @@ function ProminentProjectCard({ project }) {
 
             {skills.length > 0 && (
                 <div className="mt-8">
-                    <p className="font-mono text-xs uppercase tracking-wider text-[#8a7a4e] dark:text-[#8b86a3]">
-                        Skills & Technologies
-                    </p>
-
                     <div className="mt-4 flex flex-wrap gap-2.5">
                         {skills.map((skill, index) => (
                             <span
@@ -91,6 +61,33 @@ function ProminentProjectCard({ project }) {
                 </div>
             )}
 
+
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                        inline-flex w-fit shrink-0 items-center gap-2
+                        rounded-lg
+                        bg-[#b5650a] dark:bg-[#f5a623]
+                        px-4 py-2.5
+                        text-sm font-semibold
+                        text-white dark:text-[#1e1b2e]
+                        transition-all duration-200
+                        hover:-translate-y-0.5
+                        hover:shadow-md
+                        focus:outline-none
+                        focus-visible:ring-2
+                        focus-visible:ring-[#e8951f]
+                        focus-visible:ring-offset-2
+                        focus-visible:ring-offset-[#fdedb0]
+                        dark:focus-visible:ring-offset-[#221f33]
+                        mt-6
+                    "
+            >
+                Learn More
+                <span aria-hidden="true">↗</span>
+            </a>
         </article>
     );
 }

@@ -1,11 +1,11 @@
-import data from "../Data/data.json";
-import CertificationCard from "./CertificationCard";
+import data from "../../Data/data.json";
+import CertificationCard from "../Secondary/CertificationCard";
 
 function Certifications() {
     const { certifications } = data;
 
     return (
-        <main className="min-h-screen bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
+        <section id="Certifications" className="min-h-screen bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
             <div className="mx-auto max-w-6xl">
 
                 <div className="mb-12">
@@ -28,7 +28,7 @@ function Certifications() {
                 </div>
 
             </div>
-        </main>
+        </section>
     );
 }
 

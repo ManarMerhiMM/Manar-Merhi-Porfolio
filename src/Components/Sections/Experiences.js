@@ -1,12 +1,12 @@
-import data from "../Data/data.json";
-import ProminentExperienceCard from "./ProminentExperienceCard";
-import SecondaryExperienceCard from "./SecondaryExperienceCard";
+import data from "../../Data/data.json";
+import ProminentExperienceCard from "../Secondary/ProminentExperienceCard";
+import SecondaryExperienceCard from "../Secondary/SecondaryExperienceCard";
 
-function ExperiencesComponent() {
+function Experiences() {
     const { experiences } = data;
 
     return (
-        <main className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
+        <section id="Experiences" className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
             <div className="mx-auto max-w-6xl">
                 <div className="mb-12">
                     <p className="font-mono text-sm text-[#b5650a] dark:text-[#f5a623]">
@@ -39,8 +39,8 @@ function ExperiencesComponent() {
                 </div>
 
             </div>
-        </main>
+        </section>
     );
 }
 
-export default ExperiencesComponent;
+export default Experiences;

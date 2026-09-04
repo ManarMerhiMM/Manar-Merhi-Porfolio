@@ -32,33 +32,6 @@ function SecondaryProjectCard({ project }) {
                     </h2>
                 </div>
 
-                <a
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
-                        inline-flex w-fit shrink-0 items-center gap-1.5
-                        rounded-md
-                        border border-[#b5650a] dark:border-[#f5a623]
-                        px-3 py-1.5
-                        font-mono text-xs font-medium
-                        text-[#b5650a] dark:text-[#f5a623]
-                        transition-all duration-200
-                        hover:-translate-y-0.5
-                        hover:bg-[#b5650a] hover:text-white
-                        dark:hover:bg-[#f5a623] dark:hover:text-[#1e1b2e]
-                        focus:outline-none
-                        focus-visible:ring-2
-                        focus-visible:ring-[#b5650a]
-                        focus-visible:ring-offset-2
-                        focus-visible:ring-offset-[#f2dfa8]
-                        dark:focus-visible:ring-offset-[#28243a]
-                    "
-                >
-                    Learn More
-                    <span aria-hidden="true">↗</span>
-                </a>
-
             </div>
 
             <p className="mt-5 text-sm leading-relaxed text-[#4a4022] dark:text-[#c9c4dc]">
@@ -84,6 +57,33 @@ function SecondaryProjectCard({ project }) {
                 </div>
             )}
 
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                        inline-flex w-fit shrink-0 items-center gap-1.5
+                        rounded-md
+                        border border-[#b5650a] dark:border-[#f5a623]
+                        px-3 py-1.5
+                        font-mono text-xs font-medium
+                        text-[#b5650a] dark:text-[#f5a623]
+                        transition-all duration-200
+                        hover:-translate-y-0.5
+                        hover:bg-[#b5650a] hover:text-white
+                        dark:hover:bg-[#f5a623] dark:hover:text-[#1e1b2e]
+                        focus:outline-none
+                        focus-visible:ring-2
+                        focus-visible:ring-[#b5650a]
+                        focus-visible:ring-offset-2
+                        focus-visible:ring-offset-[#f2dfa8]
+                        dark:focus-visible:ring-offset-[#28243a]
+                        mt-4
+                    "
+            >
+                Learn More
+                <span aria-hidden="true">↗</span>
+            </a>
         </article>
     );
 }

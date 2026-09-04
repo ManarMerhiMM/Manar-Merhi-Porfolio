@@ -1,15 +1,15 @@
-import data from "../Data/data.json";
-import ProminentProjectCard from "./ProminentProjectCard";
-import SecondaryProjectCard from "./SecondaryProjectCard";
+import data from "../../Data/data.json";
+import ProminentProjectCard from "../Secondary/ProminentProjectCard";
+import SecondaryProjectCard from "../Secondary/SecondaryProjectCard";
 
-function ProjectsComponent() {
+function Projects() {
     const { projects } = data;
 
     const priorityProjects = projects.filter((project) => project.priority);
     const secondaryProjects = projects.filter((project) => !project.priority);
 
     return (
-        <main className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
+        <section id="Projects" className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
             <div className="mx-auto max-w-6xl">
 
                 <div className="mb-12">
@@ -62,8 +62,8 @@ function ProjectsComponent() {
                 )}
 
             </div>
-        </main>
+        </section>
     );
 }
 
-export default ProjectsComponent;
+export default Projects;

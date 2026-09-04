@@ -1,13 +1,12 @@
 # 🥷🏻 Manar Merhi — Portfolio
 
-My personal portfolio site (Single Page Application).
+My personal portfolio site.
 
 🔗 Live at: https://manar-merhi.vercel.app/
 
 ## 🔨 Built with
 
 - React
-- React Router
 - Tailwind CSS
 - Hosted on Vercel
 

@@ -1,12 +1,12 @@
-import data from "../Data/data.json";
-import ProminentEducationCard from "./ProminentEducationCard";
-import SecondaryEducationCard from "./SecondaryEducationCard";
+import data from "../../Data/data.json";
+import ProminentEducationCard from "../Secondary/ProminentEducationCard";
+import SecondaryEducationCard from "../Secondary/SecondaryEducationCard";
 
 function Education() {
     const { schools, tests, languages } = data.education;
 
     return (
-        <section className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
+        <section id="Education" className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24">
             <div className="mx-auto max-w-6xl">
 
                 {/* Section heading */}
