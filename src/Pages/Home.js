@@ -1,8 +1,18 @@
-import React from 'react';
+import NavBar from '../Components/Navbar';
+import Hero from '../Components/Hero';
+import useDocumentTitle from '../Hooks/useDocumentTitle';
+import Education from '../Components/Education';
 
+function Home() {
+    useDocumentTitle("Landing", false);
 
-function Home(props){
-    return <></>
+    return (
+        <>
+            <NavBar />
+            <Hero />
+            <Education />
+        </>
+    );
 }
 
 

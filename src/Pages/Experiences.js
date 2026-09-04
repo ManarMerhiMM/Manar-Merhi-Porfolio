@@ -1,8 +1,14 @@
-import React from 'react';
+import ExperiencesComponent from '../Components/ExperiencesComponent';
+import NavBar from '../Components/Navbar';
+import useDocumentTitle from '../Hooks/useDocumentTitle';
 
 
-function Experiences(props){
-    return <></>
+function Experiences() {
+    useDocumentTitle("Expriences", false);
+    return <>
+        <NavBar />
+        <ExperiencesComponent />
+    </>
 }
 
 

@@ -2,7 +2,7 @@
     "basicInfo": {
         "name": "Manar Merhi",
         "title": "Computer & Communications Engineer",
-        "tagline": "Full-Stack Developer",
+        "tagline": "Full-Stack Developer . Private Tutor",
         "location": {
             "city": "Saida",
             "country": "Lebanon"
@@ -19,7 +19,7 @@
                 "number": "71850368"
             }
         },
-        "bio": "Computer & Communications Engineer passionate about full-stack development. Open to software engineering opportunities."
+        "bio": "Computer & Communications Engineer passionate about full-stack development and teaching. Open to Software Engineering / Tutoring opportunities."
     },
     "education": {
         "schools": [

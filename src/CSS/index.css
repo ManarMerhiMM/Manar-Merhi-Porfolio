@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Syne+Mono&family=Twinkle+Star&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: "Twemoji Country Flags";
+    font-family: "IBM Plex Sans", "Twemoji Country Flags", sans-serif;
 }
