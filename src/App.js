@@ -8,21 +8,25 @@ import Certifications from './Pages/Certifications';
 import About from './Pages/About';
 import NotFound from './Pages/NotFound';
 
+import { ThemeProvider } from './Contexts/ThemeContext';
+
 import { polyfillCountryFlagEmojis } from "country-flag-emoji-polyfill";
 
 polyfillCountryFlagEmojis();
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/certifications" element={<Certifications />} />
-      <Route path="/experiences" element={<Experiences />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <ThemeProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/certifications" element={<Certifications />} />
+        <Route path="/experiences" element={<Experiences />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </ThemeProvider>
   );
 }
 

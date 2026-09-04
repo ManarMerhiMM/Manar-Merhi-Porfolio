@@ -2,7 +2,7 @@
 
 My personal portfolio site (Single Page Application).
 
-🔗 Live at: 
+🔗 Live at: https://manar-merhi.vercel.app/
 
 ## 🔨 Built with
 
