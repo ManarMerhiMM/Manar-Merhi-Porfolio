@@ -9,7 +9,7 @@ function Hero() {
             className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-16 md:py-0 md:pt-20"
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
         >
             <div className="relative group shrink-0">

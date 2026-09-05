@@ -15,9 +15,9 @@ polyfillCountryFlagEmojis();
 
 const navLinks = [
   { name: "Overview", path: "#Overview"},
-  { name: "Education", path: "#Education"},
   { name: "Experiences", path: "#Experiences" },
   { name: "Projects", path: "#Projects" },
+  { name: "Education", path: "#Education"},
   { name: "Certifications", path: "#Certifications" }
 ];
 
@@ -26,9 +26,9 @@ function App() {
     <ThemeProvider>
       <NavBar links={navLinks} />
       <Hero />
-      <Education />
       <Experiences />
       <Projects />
+      <Education />
       <Certifications />
       <Footer/>
     </ThemeProvider>

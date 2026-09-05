@@ -22,7 +22,7 @@ function Projects() {
 
                 <div className="mb-12">
                     <p className="font-mono text-sm text-[#b5650a] dark:text-[#f5a623]">
-                        03 / Projects
+                        02 / Projects
                     </p>
 
                     <h1 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
