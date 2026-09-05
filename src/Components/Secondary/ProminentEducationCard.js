@@ -28,7 +28,7 @@ function ProminentEducationCard(props) {
                 </div>
 
                 <div className="md:text-right">
-                    <span className="font-mono text-1xl md:text-2xl font-semibold text-[#b5650a] dark:text-[#f5a623]">
+                    <span className="font-mono text-xl md:text-2xl font-semibold text-[#b5650a] dark:text-[#f5a623]">
                         {score}
                     </span>
 

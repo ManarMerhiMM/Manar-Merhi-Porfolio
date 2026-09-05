@@ -15,7 +15,7 @@ function Projects() {
             className="bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-24"
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
         >
             <div className="mx-auto max-w-6xl">

@@ -6,7 +6,7 @@ function Hero() {
     return (
         <motion.section
             id="Overview"
-            className="min-h-screen md:min-h-[calc(100vh-5rem)] flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-16 md:py-0"
+            className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 bg-[#f0e2b8] dark:bg-[#1e1b2e] px-6 py-16 md:py-0 md:pt-20"
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
@@ -44,6 +44,45 @@ function Hero() {
                 <p className="mx-auto mt-6 max-w-2xl font-['IBM_Plex_Sans'] text-base md:text-lg leading-relaxed text-[#4a4022] dark:text-[#c9c4dc]">
                     {data.basicInfo.bio}
                 </p>
+
+                {data.basicInfo.resume && (
+                    <a
+                        href={data.basicInfo.resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                            mt-8 inline-flex w-fit items-center gap-2
+                            rounded-lg
+                            bg-[#b5650a] dark:bg-[#f5a623]
+                            px-5 py-2.5
+                            text-sm font-semibold
+                            text-white dark:text-[#1e1b2e]
+                            shadow-sm
+                            transition-all duration-200
+                            hover:-translate-y-0.5
+                            hover:shadow-md
+                            focus:outline-none
+                            focus-visible:ring-2
+                            focus-visible:ring-[#e8951f]
+                            focus-visible:ring-offset-2
+                            focus-visible:ring-offset-[#f0e2b8]
+                            dark:focus-visible:ring-offset-[#1e1b2e]
+                        "
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            className="h-4 w-4"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v11m0 0l-4-4m4 4l4-4" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 19h14" />
+                        </svg>
+                        Download Resume
+                    </a>
+                )}
 
             </div>
         </motion.section>
