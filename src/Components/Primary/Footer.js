@@ -253,7 +253,6 @@ function Footer() {
                                         dark:hover:border-[#f5a623]
                                         dark:hover:bg-[#f5a623]
                                         dark:hover:text-[#1e1b2e]
-                                        ${label === "Instagram" ? "cursor-pointer" : ""}
                                     `}
                                 >
                                     {icon}

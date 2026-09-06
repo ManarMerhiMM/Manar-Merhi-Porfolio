@@ -27,9 +27,9 @@ function SecondaryProjectCard({ project }) {
                         {startDate} — {endDate}
                     </p>
 
-                    <h2 className="mt-1 text-xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h3 className="mt-1 text-xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         {title}
-                    </h2>
+                    </h3>
                 </div>
 
             </div>
@@ -57,11 +57,13 @@ function SecondaryProjectCard({ project }) {
                 </div>
             )}
 
-            <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
+
+            {url && (
+                <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
                         inline-flex w-fit shrink-0 items-center gap-1.5
                         rounded-md
                         border border-[#b5650a] dark:border-[#f5a623]
@@ -80,10 +82,12 @@ function SecondaryProjectCard({ project }) {
                         dark:focus-visible:ring-offset-[#28243a]
                         mt-4
                     "
-            >
-                Learn More
-                <span aria-hidden="true">↗</span>
-            </a>
+                >
+                    Learn More
+                    <span aria-hidden="true">↗</span>
+                </a>
+            )}
+
         </article>
     );
 }

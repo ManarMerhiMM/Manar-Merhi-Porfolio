@@ -39,9 +39,9 @@ function SecondaryExperienceCard({ experience }) {
                         </span>
                     </div>
 
-                    <h2 className="mt-2 text-xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h3 className="mt-2 text-xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         {role}
-                    </h2>
+                    </h3>
 
                     <p className="mt-1 text-sm text-[#4a4022] dark:text-[#c9c4dc]">
                         {company}

@@ -82,37 +82,49 @@
             "id": "modern-react-bootcamp",
             "name": "The Modern React Bootcamp",
             "company": "Udemy",
-            "date": "Sep 2026"
+            "date": "Sep 2026",
+            "skills": ["React", "JSX", "JSS", "Bootstrap", "Tailwind", "Props", "State", "Hooks", "Reducers", "Context", "Scalability", "Client-side Routing"],
+            "url": "https://www.udemy.com/certificate/UC-184f8afc-7fd5-4141-adf8-36140698c062/"
         },
         {
             "id": "JS-complete-guide",
-            "name": "JS - The Complete Guide",
+            "name": "Javascript - The Complete Guide",
             "company": "Udemy",
-            "date": "Aug 2026"
+            "date": "Aug 2026",
+            "skills": ["JS", "Fetching Data", "JSON", "Scalability", "Error Handling", "Events", "Callbacks", "OOP", "Functional Programming"],
+            "url": "https://www.udemy.com/certificate/UC-863dbf10-2fd9-4200-8b95-7ad5e2632825/"
         },
         {
             "id": "html-css-bootcamp-2026",
             "name": "The HTML & CSS Bootcamp 2026 Edition",
             "company": "Udemy",
-            "date": "May 2026"
+            "date": "May 2026",
+            "skills": ["HTML", "CSS", "Desktop-First Design", "Mobile-First Design", "Scalability", "UI/UX"],
+            "url": "https://www.udemy.com/certificate/UC-d4c5b9c6-6c01-492d-8604-3ad6f8bfe5f4/"
         },
         {
-            "id": "enterprise-networking-security-automation",
+            "id": "ccna-enterprise-networking-security-automation",
             "name": "Enterprise Networking, Security, and Automation",
             "company": "Cisco Networking Academy",
-            "date": "May 2025"
+            "date": "May 2025",
+            "skills": ["Virtualization", "WANs", "Dynamic Routing", "NAT", "Network Automation Basics", "QoS", "Security Threat Mitigation", "Software Driven Networks"],
+            "url": "https://www.credly.com/badges/b4c32c2b-06e6-41a4-aa71-112d99163261/public_url"
         },
         {
-            "id": "switching-routing-wireless-essentials",
+            "id": "ccna-switching-routing-wireless-essentials",
             "name": "Switching, Routing, and Wireless Essentials",
             "company": "Cisco Networking Academy",
-            "date": "Mar 2025"
+            "date": "Mar 2025",
+            "skills": ["Access Connectivity", "Access Security", "First-hop Redundancy", "High Availability", "IP Services", "Routing", "Switching", "WLAN Controllers"],
+            "url": "https://www.credly.com/badges/047d2dac-2be0-4c51-ba47-0606a22fb43e/public_url"
         },
         {
-            "id": "introduction-to-networks",
+            "id": "ccna-introduction-to-networks",
             "name": "Introduction to Networks",
             "company": "Cisco Networking Academy",
-            "date": "Dec 2023"
+            "date": "Dec 2023",
+            "skills": ["Ethernet", "IP Connectivity", "IP Services", "IPv4", "IPv6", "Network Fundamentals", "Security Fundamentals", "Switching"],
+            "url": "https://www.credly.com/badges/83b13f1e-39c7-42b6-a7ff-117813ebcda1/public_url"
         }
     ],
     "projects": [
@@ -151,6 +163,11 @@
             "title": "VISION",
             "description": "A final-year project focused on developing a wearable ecosystem designed to improve accessibility and independence for visually impaired users.",
             "skills": [
+                "First-Hand Research",
+                "Data Analysis",
+                "HTML",
+                "CSS",
+                "JS",
                 "React",
                 "React Native",
                 "Laravel",
@@ -273,7 +290,10 @@
             "description": "A network infrastructure design for a college block created and simulated using Cisco Packet Tracer.",
             "skills": [
                 "Cisco Packet Tracer",
-                "Networking"
+                "Networking",
+                "Subnetting",
+                "IPv4",
+                "Scalability"
             ],
             "url": "https://drive.google.com/file/d/14KkgUS9NcSlGVgFsc39xww-arfW-vfR7/view?usp=drive_link",
             "startDate": "Nov 2024",
@@ -285,7 +305,8 @@
             "title": "Buckshot Roulette 1.0",
             "description": "A terminal-based implementation of Buckshot Roulette developed as a personal programming project.",
             "skills": [
-                "Python"
+                "Python",
+                "Game Programming"
             ],
             "url": "https://github.com/ManarMerhiMM/Buckshot-Roulette",
             "startDate": "Sep 2024",
@@ -324,7 +345,7 @@
         },
         {
             "id": "inductive-generator",
-            "title": "Inductive Generator (Faraday's Law Recreation)",
+            "title": "Inductive Generator",
             "description": "An electromagnetics lab project recreating Faraday's Electromagnetic Induction Experiment using a hand-cranked dynamo, exploring how mechanical motion is converted to electrical current via a changing magnetic flux.",
             "skills": [
                 "Electromagnetics",
@@ -441,12 +462,9 @@
                 "HTML",
                 "CSS",
                 "JS",
-                "React",
-                "DBMS",
-                "MySQL",
                 "PHP",
-                "Laravel",
-                "REST APIs"
+                "MySQL",
+                "DBMS"     
             ]
         },
         {

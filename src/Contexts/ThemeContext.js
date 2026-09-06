@@ -4,7 +4,7 @@ import useLocalStorageToggle from "../Hooks/useLocalStorageToggle";
 const ThemeContext = createContext(false);
 
 function ThemeProvider(props) {
-    const [darkTheme, toggleDarkTheme] = useLocalStorageToggle("darkTheme", false);
+    const [darkTheme, toggleDarkTheme] = useLocalStorageToggle("darkTheme", true);
 
     useEffect(() => {
         document.documentElement.classList.toggle("dark", darkTheme);

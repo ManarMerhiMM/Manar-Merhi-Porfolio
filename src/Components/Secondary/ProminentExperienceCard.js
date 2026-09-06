@@ -39,9 +39,9 @@ function ProminentExperienceCard({ experience }) {
                         </span>
                     </div>
 
-                    <h2 className="mt-3 text-3xl md:text-4xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h3 className="mt-3 text-3xl md:text-4xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         {role}
-                    </h2>
+                    </h3>
 
                     <p className="mt-2 text-lg text-[#4a4022] dark:text-[#c9c4dc]">
                         {company}
@@ -50,7 +50,7 @@ function ProminentExperienceCard({ experience }) {
 
                 <div className="shrink-0 md:text-right">
                     <p className="font-mono text-sm text-[#8a7a4e] dark:text-[#8b86a3]">
-                        {startDate} - {endDate}
+                        {startDate} — {endDate}
                     </p>
                 </div>
 

@@ -25,9 +25,9 @@ function Projects() {
                         02 / Projects
                     </p>
 
-                    <h1 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h2 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         Things I've Built
-                    </h1>
+                    </h2>
 
                 </div>
 

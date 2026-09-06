@@ -20,7 +20,7 @@ function Education() {
                 {/* Section heading */}
                 <div className="mb-12">
                     <p className="font-mono text-sm text-[#b5650a] dark:text-[#f5a623]">
-                        03 / Education
+                        04 / Education
                     </p>
 
                     <h2 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">

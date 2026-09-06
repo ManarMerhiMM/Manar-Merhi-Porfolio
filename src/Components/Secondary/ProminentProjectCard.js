@@ -27,9 +27,9 @@ function ProminentProjectCard({ project }) {
                         {startDate} — {endDate}
                     </p>
 
-                    <h2 className="mt-2 text-3xl md:text-4xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h3 className="mt-2 text-3xl md:text-4xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         {title}
-                    </h2>
+                    </h3>
                 </div>
 
             </div>
@@ -61,12 +61,12 @@ function ProminentProjectCard({ project }) {
                 </div>
             )}
 
-
-            <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
+            {url && (
+                <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
                         inline-flex w-fit shrink-0 items-center gap-2
                         rounded-lg
                         bg-[#b5650a] dark:bg-[#f5a623]
@@ -84,10 +84,12 @@ function ProminentProjectCard({ project }) {
                         dark:focus-visible:ring-offset-[#221f33]
                         mt-6
                     "
-            >
-                Learn More
-                <span aria-hidden="true">↗</span>
-            </a>
+                >
+                    Learn More
+                    <span aria-hidden="true">↗</span>
+                </a>
+            )}
+
         </article>
     );
 }

@@ -18,12 +18,12 @@ function Certifications() {
 
                 <div className="mb-12">
                     <p className="font-mono text-sm text-[#b5650a] dark:text-[#f5a623]">
-                        04 / Certifications
+                        03 / Certifications
                     </p>
 
-                    <h1 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
+                    <h2 className="mt-2 text-4xl md:text-5xl font-semibold text-[#241f14] dark:text-[#f5f0e8]">
                         Continuous Learning
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-2">

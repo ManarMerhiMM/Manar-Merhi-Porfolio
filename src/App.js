@@ -17,8 +17,8 @@ const navLinks = [
   { name: "Overview", path: "#Overview"},
   { name: "Experiences", path: "#Experiences" },
   { name: "Projects", path: "#Projects" },
-  { name: "Education", path: "#Education"},
-  { name: "Certifications", path: "#Certifications" }
+  { name: "Certifications", path: "#Certifications" },
+  { name: "Education", path: "#Education"}
 ];
 
 function App() {
@@ -28,8 +28,8 @@ function App() {
       <Hero />
       <Experiences />
       <Projects />
-      <Education />
       <Certifications />
+      <Education />
       <Footer/>
     </ThemeProvider>
   );
