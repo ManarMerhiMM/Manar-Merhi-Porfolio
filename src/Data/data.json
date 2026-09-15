@@ -79,6 +79,14 @@
     },
     "certifications": [
         {
+        "id": "mastering-typescript-2026",
+        "name": "Mastering Typescript - 2026 Edition",
+        "company": "Udemy",
+        "date": "Sep 2026",
+        "skills": ["TS", "Type Annotations", "Generics", "Interfaces", "OOP", "Type Narrowing", "Scalability", "Modules", "Webpack", "React"],
+        "url": "https://www.udemy.com/certificate/UC-50082870-548d-41b5-8a1a-285229fed388/"
+        },
+        {
             "id": "modern-react-bootcamp",
             "name": "The Modern React Bootcamp",
             "company": "Udemy",
@@ -91,7 +99,7 @@
             "name": "Javascript - The Complete Guide",
             "company": "Udemy",
             "date": "Aug 2026",
-            "skills": ["JS", "Fetching Data", "JSON", "Scalability", "Error Handling", "Events", "Callbacks", "OOP", "Functional Programming"],
+            "skills": ["JS", "Fetching Data", "JSON", "Scalability", "Error Handling", "Events", "Callbacks", "OOP", "Functional Programming", "Modules", "Webpack"],
             "url": "https://www.udemy.com/certificate/UC-863dbf10-2fd9-4200-8b95-7ad5e2632825/"
         },
         {
