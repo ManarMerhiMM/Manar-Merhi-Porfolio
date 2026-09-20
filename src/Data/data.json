@@ -79,19 +79,55 @@
     },
     "certifications": [
         {
-        "id": "mastering-typescript-2026",
-        "name": "Mastering Typescript - 2026 Edition",
-        "company": "Udemy",
-        "date": "Sep 2026",
-        "skills": ["TS", "Type Annotations", "Generics", "Interfaces", "OOP", "Type Narrowing", "Scalability", "Modules", "Webpack", "React"],
-        "url": "https://www.udemy.com/certificate/UC-50082870-548d-41b5-8a1a-285229fed388/"
+            "id": "rhu-ai-bootcamp-2026",
+            "name": "Generative and Agentic AI Bootcamp",
+            "company": "RHU",
+            "date": "Sep 2026",
+            "skills": [
+                "n8n",
+                "Webhooks",
+                "AI"
+            ],
+            "url": "https://drive.google.com/uc?export=download&id=1tgQsWl_Dh7ZnIEqfVznh4LY64XCI3jow"
+        },
+        {
+            "id": "mastering-typescript-2026",
+            "name": "Mastering Typescript - 2026 Edition",
+            "company": "Udemy",
+            "date": "Sep 2026",
+            "skills": [
+                "TS",
+                "Type Annotations",
+                "Generics",
+                "Interfaces",
+                "OOP",
+                "Type Narrowing",
+                "Scalability",
+                "Modules",
+                "Webpack",
+                "React"
+            ],
+            "url": "https://www.udemy.com/certificate/UC-50082870-548d-41b5-8a1a-285229fed388/"
         },
         {
             "id": "modern-react-bootcamp",
             "name": "The Modern React Bootcamp",
             "company": "Udemy",
             "date": "Sep 2026",
-            "skills": ["React", "JSX", "JSS", "Bootstrap", "Tailwind", "Props", "State", "Hooks", "Reducers", "Context", "Scalability", "Client-side Routing"],
+            "skills": [
+                "React",
+                "JSX",
+                "JSS",
+                "Bootstrap",
+                "Tailwind",
+                "Props",
+                "State",
+                "Hooks",
+                "Reducers",
+                "Context",
+                "Scalability",
+                "Client-side Routing"
+            ],
             "url": "https://www.udemy.com/certificate/UC-184f8afc-7fd5-4141-adf8-36140698c062/"
         },
         {
@@ -99,7 +135,19 @@
             "name": "Javascript - The Complete Guide",
             "company": "Udemy",
             "date": "Aug 2026",
-            "skills": ["JS", "Fetching Data", "JSON", "Scalability", "Error Handling", "Events", "Callbacks", "OOP", "Functional Programming", "Modules", "Webpack"],
+            "skills": [
+                "JS",
+                "Fetching Data",
+                "JSON",
+                "Scalability",
+                "Error Handling",
+                "Events",
+                "Callbacks",
+                "OOP",
+                "Functional Programming",
+                "Modules",
+                "Webpack"
+            ],
             "url": "https://www.udemy.com/certificate/UC-863dbf10-2fd9-4200-8b95-7ad5e2632825/"
         },
         {
@@ -107,7 +155,14 @@
             "name": "The HTML & CSS Bootcamp 2026 Edition",
             "company": "Udemy",
             "date": "May 2026",
-            "skills": ["HTML", "CSS", "Desktop-First Design", "Mobile-First Design", "Scalability", "UI/UX"],
+            "skills": [
+                "HTML",
+                "CSS",
+                "Desktop-First Design",
+                "Mobile-First Design",
+                "Scalability",
+                "UI/UX"
+            ],
             "url": "https://www.udemy.com/certificate/UC-d4c5b9c6-6c01-492d-8604-3ad6f8bfe5f4/"
         },
         {
@@ -115,7 +170,16 @@
             "name": "Enterprise Networking, Security, and Automation",
             "company": "Cisco Networking Academy",
             "date": "May 2025",
-            "skills": ["Virtualization", "WANs", "Dynamic Routing", "NAT", "Network Automation Basics", "QoS", "Security Threat Mitigation", "Software Driven Networks"],
+            "skills": [
+                "Virtualization",
+                "WANs",
+                "Dynamic Routing",
+                "NAT",
+                "Network Automation Basics",
+                "QoS",
+                "Security Threat Mitigation",
+                "Software Driven Networks"
+            ],
             "url": "https://www.credly.com/badges/b4c32c2b-06e6-41a4-aa71-112d99163261/public_url"
         },
         {
@@ -123,7 +187,16 @@
             "name": "Switching, Routing, and Wireless Essentials",
             "company": "Cisco Networking Academy",
             "date": "Mar 2025",
-            "skills": ["Access Connectivity", "Access Security", "First-hop Redundancy", "High Availability", "IP Services", "Routing", "Switching", "WLAN Controllers"],
+            "skills": [
+                "Access Connectivity",
+                "Access Security",
+                "First-hop Redundancy",
+                "High Availability",
+                "IP Services",
+                "Routing",
+                "Switching",
+                "WLAN Controllers"
+            ],
             "url": "https://www.credly.com/badges/047d2dac-2be0-4c51-ba47-0606a22fb43e/public_url"
         },
         {
@@ -131,11 +204,36 @@
             "name": "Introduction to Networks",
             "company": "Cisco Networking Academy",
             "date": "Dec 2023",
-            "skills": ["Ethernet", "IP Connectivity", "IP Services", "IPv4", "IPv6", "Network Fundamentals", "Security Fundamentals", "Switching"],
+            "skills": [
+                "Ethernet",
+                "IP Connectivity",
+                "IP Services",
+                "IPv4",
+                "IPv6",
+                "Network Fundamentals",
+                "Security Fundamentals",
+                "Switching"
+            ],
             "url": "https://www.credly.com/badges/83b13f1e-39c7-42b6-a7ff-117813ebcda1/public_url"
         }
     ],
     "projects": [
+        {
+            "id": "rhu-course-flow",
+            "title": "RHU Course Flow",
+            "description": "An AI-powered course registration assistant for Rafik Hariri University. It builds a conflict-free schedule from a student's study plan, preferences, and course offerings. Then, it lets the student review it, then sends it to their advisor for one-click approval. The student then receives a confirmation or feedback email automatically.",
+            "skills": [
+                "React",
+                "TS",
+                "n8n",
+                "Webhooks",
+                "AI"
+            ],
+            "url": "https://github.com/ManarMerhiMM/Course-Flow-Frontend",
+            "startDate": "Sep 2026",
+            "endDate": "Sep 2026",
+            "priority": true
+        },
         {
             "id": "buckshot-roulette-web",
             "title": "Buckshot Roulette 2.0",
@@ -472,7 +570,7 @@
                 "JS",
                 "PHP",
                 "MySQL",
-                "DBMS"     
+                "DBMS"
             ]
         },
         {
