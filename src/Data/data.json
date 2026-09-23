@@ -499,27 +499,6 @@
             ]
         },
         {
-            "id": "octasolutions-full-stack-developer",
-            "company": "OctaSolutions",
-            "role": "Full-Stack Web Developer",
-            "type": "Internship",
-            "location": "Remote",
-            "startDate": "Jun 2025",
-            "endDate": "Aug 2025",
-            "description": "Worked on multiple medium-level projects during the initial phase before developing an in-depth database management system web application. Focused primarily on backend development, database management, REST APIs, and web security while working with PHP, Laravel, MySQL, React, and JS.",
-            "skills": [
-                "HTML",
-                "CSS",
-                "JS",
-                "React",
-                "DBMS",
-                "MySQL",
-                "PHP",
-                "Laravel",
-                "REST APIs"
-            ]
-        },
-        {
             "id": "devision-full-stack-developer",
             "company": "DeVision",
             "role": "Full Stack Web Developer",

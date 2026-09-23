@@ -27,8 +27,8 @@ function Experiences() {
                 </div>
 
                 <div className="flex flex-col gap-6">
-                    {experiences.map((experience, index) => {
-                        if (index === 0) {
+                    {experiences.map((experience) => {
+                        if (experience.endDate === "Present") {
                             return (
                                 <ProminentExperienceCard
                                     key={experience.id}
