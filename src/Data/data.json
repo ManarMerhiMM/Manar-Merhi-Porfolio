@@ -79,6 +79,28 @@
     },
     "certifications": [
         {
+            "id": "the-ultimate-MySQL-bootcamp",
+            "name": "The Ultimate MySQL Bootcamp",
+            "company": "Udemy",
+            "date": "Oct 2026",
+            "skills": [
+                "SQL",
+                "MySQL",
+                "Database Design",
+                "CRUD Operations",
+                "Joins",
+                "Aggregate Functions",
+                "Constraints",
+                "Views",
+                "Window Functions",
+                "Triggers",
+                "Data Modeling",
+                "ER Diagram",
+                "Scalability"
+            ],
+            "url": "https://www.udemy.com/certificate/UC-ca63ea52-3713-4b7e-b33e-25288639898c/" 
+        },
+        {
             "id": "rhu-ai-bootcamp-2026",
             "name": "Generative and Agentic AI Bootcamp",
             "company": "RHU",
