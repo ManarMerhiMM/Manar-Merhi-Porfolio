@@ -243,7 +243,7 @@
         {
             "id": "rhu-course-flow",
             "title": "RHU Course Flow",
-            "description": "An AI-powered course registration assistant for Rafik Hariri University. It builds a conflict-free schedule from a student's study plan, preferences, and course offerings. Then, it lets the student review it, then sends it to their advisor for one-click approval. The student then receives a confirmation or feedback email automatically.",
+            "description": "AI-powered course registration assistant that builds conflict-free schedules from a student’s study plan and preferences, then sends them to the advisor for approval and automatic confirmation or feedback emails.",
             "skills": [
                 "React",
                 "TS",
@@ -259,7 +259,7 @@
         {
             "id": "buckshot-roulette-web",
             "title": "Buckshot Roulette 2.0",
-            "description": "A web-based clone of Buckshot Roulette featuring match history, stats tracking, and a PvE mode against an AI opponent.",
+            "description": "An improved Web-based clone of the game with additional features such as achievements, animations, sound effects, and the ability to play against an AI opponent.",
             "skills": [
                 "HTML",
                 "CSS",
@@ -275,7 +275,7 @@
         {
             "id": "customer-support-intake-pipeline",
             "title": "Customer Support Intake Pipeline",
-            "description": "A customer support intake pipeline designed to organize, process, and route incoming customer support requests to the appropriate team.",
+            "description": "Python pipeline that uses prompt engineering to organize, process, and route incoming support requests to the right support team. If unsure the request gets redirected to the general support team. In case of urgency (automatically detected), the request gets escalated for urgent human review.",
             "skills": [
                 "Python",
                 "Prompt Engineering",
@@ -284,12 +284,12 @@
             "url": "https://github.com/ManarMerhiMM/AI-Powered-Customer-Support-Intake-Pipeline",
             "startDate": "Apr 2026",
             "endDate": "May 2026",
-            "priority": true
+            "priority": false
         },
         {
             "id": "vision-wearable-ecosystem",
-            "title": "VISION",
-            "description": "A final-year project focused on developing a wearable ecosystem designed to improve accessibility and independence for visually impaired users.",
+            "title": "VISION (Final Year Project)",
+            "description": "A working prototype of a wearable ecosystem that improves accessibility and independence for visually impaired users, spanning web and mobile apps, BLE hardware, and computer vision. First hand research aided some design choices.",
             "skills": [
                 "First-Hand Research",
                 "Data Analysis",
@@ -312,37 +312,9 @@
             "priority": true
         },
         {
-            "id": "extending-mips-isa",
-            "title": "Extending the MIPS ISA",
-            "description": "A computer architecture project focused on extending the MIPS instruction set architecture and exploring the implementation of an additional instruction.",
-            "skills": [
-                "MIPS",
-                "RISC",
-                "Computer Architecture"
-            ],
-            "url": "https://docs.google.com/document/d/1McenKgdojzyp6FCaNDaFNyixa_WLzLfI/export?format=pdf",
-            "startDate": "Apr 2026",
-            "endDate": "Apr 2026",
-            "priority": false
-        },
-        {
-            "id": "rainfall-prediction-ml",
-            "title": "Rainfall Prediction using Machine Learning",
-            "description": "A machine learning project focused on predicting rainfall from historical weather data using machine learning techniques.",
-            "skills": [
-                "Python",
-                "Machine Learning",
-                "Data Analysis"
-            ],
-            "url": "https://colab.research.google.com/drive/10b06v9RsaRgpmy7wxIzg3U3uRdGsrlJc?usp=drive_link",
-            "startDate": "Mar 2026",
-            "endDate": "Apr 2026",
-            "priority": false
-        },
-        {
             "id": "fsm-tinkering",
             "title": "FSM Tinkering Web Application",
-            "description": "A frontend-only web application for experimenting with finite state machines.",
+            "description": "A web app for experimenting with finite state machines, with an NFA → DFA converter, a DAFSA builder and minimizer, string-acceptance testing, and interactive graph visualization using vis-network.",
             "skills": [
                 "HTML",
                 "CSS",
@@ -356,24 +328,9 @@
             "priority": true
         },
         {
-            "id": "absa-restaurant-reviews",
-            "title": "ABSA of Restaurant Reviews",
-            "description": "An aspect-based sentiment analysis project using Python to analyze customer sentiment toward specific aspects of restaurant reviews.",
-            "skills": [
-                "Python",
-                "NLP",
-                "Machine Learning",
-                "Data Analysis"
-            ],
-            "url": "https://colab.research.google.com/drive/1l9bINRRuWz-atz7jOqXnjhGIb823jRot?usp=drive_link",
-            "startDate": "Oct 2025",
-            "endDate": "Nov 2025",
-            "priority": false
-        },
-        {
             "id": "speech-recognition-without-ai",
             "title": "Speech Recognition without AI",
-            "description": "A speech recognition project implemented without AI using signal processing and cross-correlation techniques in Python.",
+            "description": "A Speech recognition system built using signal processing and mathematical cross-correlation.",
             "skills": [
                 "Python",
                 "Cross-Correlation",
@@ -387,7 +344,7 @@
         {
             "id": "m-t-tutoring-platform",
             "title": "M & T Tutoring Online Learning Platform",
-            "description": "A frontend-only online learning platform designed for tutoring and educational content, developed without frontend frameworks.",
+            "description": "An online learning platform for tutoring and educational content.",
             "skills": [
                 "HTML",
                 "CSS",
@@ -400,51 +357,23 @@
             "priority": true
         },
         {
-            "id": "automated-greenhouse",
-            "title": "Automated Greenhouse System",
-            "description": "An automated greenhouse prototype designed and simulated in Tinkercad, using sensors and automated controls to manage greenhouse conditions.",
-            "skills": [
-                "Tinkercad",
-                "Arduino"
-            ],
-            "url": "https://drive.google.com/uc?export=download&id=1tiCgd6erjFtcfpPZY_jNvg_bK1eRv30f",
-            "startDate": "Sep 2024",
-            "endDate": "Dec 2024",
-            "priority": false
-        },
-        {
-            "id": "network-infrastructure-college",
-            "title": "College Block Network Infrastructure Design",
-            "description": "A network infrastructure design for a college block created and simulated using Cisco Packet Tracer.",
-            "skills": [
-                "Cisco Packet Tracer",
-                "Networking",
-                "Subnetting",
-                "IPv4",
-                "Scalability"
-            ],
-            "url": "https://drive.google.com/file/d/14KkgUS9NcSlGVgFsc39xww-arfW-vfR7/view?usp=drive_link",
-            "startDate": "Nov 2024",
-            "endDate": "Nov 2024",
-            "priority": false
-        },
-        {
             "id": "buckshot-roulette-terminal",
             "title": "Buckshot Roulette 1.0",
-            "description": "A terminal-based implementation of Buckshot Roulette developed as a personal programming project.",
+            "description": "Terminal-based Python version of the game keeping the same logic mostly, featuring persistent settings and match history through file management.",
             "skills": [
                 "Python",
-                "Game Programming"
+                "Game Programming",
+                "File Management"
             ],
             "url": "https://github.com/ManarMerhiMM/Buckshot-Roulette",
             "startDate": "Sep 2024",
             "endDate": "Sep 2024",
-            "priority": true
+            "priority": false
         },
         {
             "id": "restaurant-dbms",
             "title": "Restaurant Database Management System",
-            "description": "A C# desktop application for managing restaurant-related data through a database management system.",
+            "description": "A C# Windows Forms desktop app targeted towards cashiers, waiters, chefs, and managers for managing restaurant data through a SQL database.",
             "skills": [
                 "C#",
                 "DBMS",
@@ -460,7 +389,7 @@
         {
             "id": "sudoku-solver",
             "title": "Sudoku Solver",
-            "description": "A program that solves Sudoku puzzles algorithmically using problem-solving and backtracking techniques.",
+            "description": "Program that solves solvable Sudoku puzzles algorithmically using AI algorithms.",
             "skills": [
                 "AI",
                 "Python",
@@ -469,36 +398,6 @@
             "url": "https://drive.google.com/uc?export=download&id=172Pa_BnnE6jGiBLm0g06I8rekGMrFNGU",
             "startDate": "Jan 2024",
             "endDate": "Apr 2024",
-            "priority": false
-        },
-        {
-            "id": "inductive-generator",
-            "title": "Inductive Generator",
-            "description": "An electromagnetics lab project recreating Faraday's Electromagnetic Induction Experiment using a hand-cranked dynamo, exploring how mechanical motion is converted to electrical current via a changing magnetic flux.",
-            "skills": [
-                "Electromagnetics",
-                "Circuit Design",
-                "Physics"
-            ],
-            "url": "https://docs.google.com/document/d/1dldjMoj3wqbJceKaa4zpw4vI9NHS2JOC/export?format=pdf",
-            "startDate": "Jan 2024",
-            "endDate": "Apr 2024",
-            "priority": false
-        },
-        {
-            "id": "parking-lot-simulation",
-            "title": "Password-Gated Parking Lot System",
-            "description": "An FPGA-based digital logic system simulating a parking lot with password-protected gate access and real-time occupancy tracking, implemented in Verilog and synthesized in Quartus Prime.",
-            "skills": [
-                "Verilog HDL",
-                "FPGA",
-                "Digital Logic Design",
-                "Quartus Prime",
-                "Circuit Design"
-            ],
-            "url": "https://drive.google.com/uc?export=download&id=1v0Nx1SUKOubukIYWgYdXcwUBZiWya9Jv",
-            "startDate": "Sep 2023",
-            "endDate": "Dec 2023",
             "priority": false
         }
     ],
