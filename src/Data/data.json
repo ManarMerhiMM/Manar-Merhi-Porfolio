@@ -2,7 +2,7 @@
     "basicInfo": {
         "name": "Manar Merhi",
         "title": "Computer & Communications Engineer",
-        "tagline": "Full-Stack Developer . Private Tutor",
+        "tagline": "Technical Sales Engineer . Private Tutor",
         "location": {
             "city": "Saida",
             "country": "Lebanon"
@@ -19,7 +19,7 @@
                 "number": "71850368"
             }
         },
-        "bio": "Computer & Communications Engineer passionate about full-stack development and teaching. Open to Software Engineering / Tutoring opportunities."
+        "bio": "Passionate about full-stack web development and teaching. Open to Software Engineering / Tutoring opportunities."
     },
     "education": {
         "schools": [
@@ -32,7 +32,7 @@
                 "grade": 93.09,
                 "over": 100,
                 "honors": [
-                    "President's Honor List Consistently"
+                    "President's Honor List"
                 ]
             },
             {
@@ -98,7 +98,7 @@
                 "ER Diagram",
                 "Scalability"
             ],
-            "url": "https://www.udemy.com/certificate/UC-ca63ea52-3713-4b7e-b33e-25288639898c/" 
+            "url": "https://www.udemy.com/certificate/UC-ca63ea52-3713-4b7e-b33e-25288639898c/"
         },
         {
             "id": "rhu-ai-bootcamp-2026",
@@ -402,6 +402,26 @@
         }
     ],
     "experiences": [
+        {
+            "id": "technical-sales-eng-service-proz",
+            "company": "Service Proz LLC",
+            "role": "Technical Sales Engineer",
+            "type": "Contract",
+            "location": "Remote",
+            "startDate": "Oct 2026",
+            "endDate": "Present",
+            "description": "I connect U.S. businesses with web, mobile, and AI-powered solutions at the Software Engineering & Technology Services Department at Service Proz LLC. My responsibilities include identifying and qualifying leads, understanding clients’ business needs, and connecting qualified prospects with our technical team for project scoping and pricing.",
+            "skills": [
+                "B2B Sales",
+                "Lead Generation",
+                "Lead Qualification",
+                "Customer Relationship Management (CRM)",
+                "Client Communication",
+                "Technical Sales Consulting",
+                "Negotiation",
+                "Time Management"
+            ]
+        },
         {
             "id": "private-tutor",
             "company": "Self",
