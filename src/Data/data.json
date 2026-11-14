@@ -79,6 +79,26 @@
     },
     "certifications": [
         {
+            "id": "the-git-github-bootcamp",
+            "name": "The Git & GitHub Bootcamp",
+            "company": "Udemy",
+            "date": "Nov 2026",
+            "skills": [
+                "Git",
+                "GitHub",
+                "Version Control",
+                "Branching & Merging",
+                "Rebasing",
+                "Pull Requests",
+                "Git Workflows",
+                "Team Collaboration",
+                "Conflict Resolution",
+                "Git Internals",
+                "Command Line"
+            ],
+            "url": "https://www.udemy.com/certificate/UC-1df97606-00ca-483b-ab45-848d02117ee8/"
+        },
+        {
             "id": "the-ultimate-MySQL-bootcamp",
             "name": "The Ultimate MySQL Bootcamp",
             "company": "Udemy",
