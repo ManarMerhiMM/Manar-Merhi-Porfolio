@@ -2,7 +2,7 @@
     "basicInfo": {
         "name": "Manar Merhi",
         "title": "Computer & Communications Engineer",
-        "tagline": "Technical Sales Engineer . Private Tutor",
+        "tagline": "Private Tutor",
         "location": {
             "city": "Saida",
             "country": "Lebanon"
@@ -423,26 +423,6 @@
     ],
     "experiences": [
         {
-            "id": "technical-sales-eng-service-proz",
-            "company": "Service Proz LLC",
-            "role": "Technical Sales Engineer",
-            "type": "Contract",
-            "location": "Remote",
-            "startDate": "Oct 2026",
-            "endDate": "Present",
-            "description": "I connect U.S. businesses with web, mobile, and AI-powered solutions at the Software Engineering & Technology Services Department at Service Proz LLC. My responsibilities include identifying and qualifying leads, understanding clients’ business needs, and connecting qualified prospects with our technical team for project scoping and pricing.",
-            "skills": [
-                "B2B Sales",
-                "Lead Generation",
-                "Lead Qualification",
-                "Customer Relationship Management (CRM)",
-                "Client Communication",
-                "Technical Sales Consulting",
-                "Negotiation",
-                "Time Management"
-            ]
-        },
-        {
             "id": "private-tutor",
             "company": "Self",
             "role": "Private Tutor",
@@ -456,6 +436,26 @@
                 "Tutoring",
                 "Research",
                 "Presentation",
+                "Time Management"
+            ]
+        },
+        {
+            "id": "technical-sales-eng-service-proz",
+            "company": "Service Proz LLC",
+            "role": "Technical Sales Engineer",
+            "type": "Contract",
+            "location": "Remote",
+            "startDate": "Oct 2026",
+            "endDate": "Dec 2026",
+            "description": "I connected U.S. businesses with web, mobile, and AI-powered solutions at the Software Engineering & Technology Services Department at Service Proz LLC. My responsibilities included identifying and qualifying leads, understanding clients’ business needs, and connecting qualified prospects with our technical team for project scoping and pricing.",
+            "skills": [
+                "B2B Sales",
+                "Lead Generation",
+                "Lead Qualification",
+                "Customer Relationship Management (CRM)",
+                "Client Communication",
+                "Technical Sales Consulting",
+                "Negotiation",
                 "Time Management"
             ]
         },
